@@ -13,7 +13,7 @@ public:
 	void SetGold(int NewGold);
 
 
-private:
+protected:
 	int HP;
 	int Gold; 
 	

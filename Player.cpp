@@ -2,8 +2,7 @@
 
 FPlayer::FPlayer() : HP(0), Gold(0)
 {
-	//HP = 0;
-	//Gold = 0;
+
 }
 
 FPlayer::~FPlayer()
