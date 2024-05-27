@@ -1,26 +1,14 @@
 #pragma once
-class FGoblin
+
+#include "Monster.h"
+
+class FGoblin : public FMonster
 {
 public:
 	FGoblin();
 	~FGoblin();
 
-	void Move();
-	void Attack();
-	void Pickup();
 	void Jump();
 
-	//aceesssor
-	int GetGold();
-	//mutator 
-	void SetGold(int NewGold);
-	void Die();
-
-
-private:
-	int HP;
-	int Gold;
-
-	void Die;
 };
 

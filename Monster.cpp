@@ -4,9 +4,11 @@
 
 using namespace std;
 
-FMonster::FMonster()
+FMonster::FMonster() 
 {
 	cout << "FMonster Constructor" << endl;
+	HP = 0;
+	Gold = 0;
 }
 
 FMonster::~FMonster()

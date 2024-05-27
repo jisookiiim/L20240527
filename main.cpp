@@ -1,19 +1,18 @@
 #include <iostream>
 #include "World.h"
-
-using namespace std;
-#include "World.h"
 #include "Player.h"
+#include "Goblin.h"
+#include "Slime.h"
+#include "WildBoar.h"
 
 using namespace std;
 
 
 int main()
 {
-	Fplayer Player;
+	FGoblin Goblin;
+	FSlime Slime;
+	FWildBoar WildBoar;
 
-	Player.
-	
-	
 	return 0;
 }

@@ -1,20 +1,14 @@
 #pragma once
-class FWildBoar
+
+#include "Monster.h"
+
+class FWildBoar : public FMonster
 {
 public:
 	FWildBoar();
 	~FWildBoar();
 
-	void Move();
-	void Attack();
-	void Pickup();
 	void Run();
 
-
-	//aceesssor
-	int GetGold();
-	//mutator 
-	void SetGold(int NewGold);
-	void Die();
 };
 
