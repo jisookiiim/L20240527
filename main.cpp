@@ -4,15 +4,18 @@
 #include "Goblin.h"
 #include "Slime.h"
 #include "WildBoar.h"
+#include <vector>
 
 using namespace std;
 
 
 int main()
 {
-	FGoblin Goblin;
-	FSlime Slime;
-	FWildBoar WildBoar;
+		
+	FMonster Monster = new FMonster();
+
+	Monster->Move();
+
 
 	return 0;
 }

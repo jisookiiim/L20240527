@@ -18,6 +18,7 @@ FMonster::~FMonster()
 
 void Move()
 {
+	cout << "몬스터 이동" << endl;
 }
 
 void Attack()
