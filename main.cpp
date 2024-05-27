@@ -2,15 +2,17 @@
 #include "World.h"
 
 using namespace std;
+#include "World.h"
+#include "Player.h"
 
+using namespace std;
 
 
 int main()
 {
-	FWorld* World;
+	Fplayer Player;
 
-	cout << "포인터만 생성" << endl;
-	World = new FWorld();
+	Player.
 	
 	
 	return 0;

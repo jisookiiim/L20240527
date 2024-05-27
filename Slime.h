@@ -1,19 +1,14 @@
 #pragma once
-class FSlime
+
+#include "Monster.h"
+
+class FSlime : public FMonster
 {
 public:
 	FSlime();
 	~FSlime();
 
-	void Move();
-	void Attack();
-	void Pickup();
 	void Slide();
 
-	//aceesssor
-	int GetGold();
-	//mutator 
-	void SetGold(int NewGold);
-	void Die();
 };
 
